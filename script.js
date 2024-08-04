@@ -5,7 +5,7 @@ const body = document.querySelector("body"),
   modeSwitch = document.querySelector(".mode-switch");
 if (localStorage.getItem("mode") === "Dark Mode") {
   body.classList.add("dark");
-  modeSwitch.textContent = "Light mode";
+  modeSwitch.textContent = "Light Mode";
 }
 modeSwitch.addEventListener("click", () => {
   body.classList.toggle("dark");
